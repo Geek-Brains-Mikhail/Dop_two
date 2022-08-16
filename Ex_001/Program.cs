@@ -26,8 +26,8 @@ int[] AddToArray(int[] array, int numbertoAdd)
 }
 int [] RemoveFromArray(int[] array, int index)
 {      
-    int [] myArray = new int[array.Length  - 1];// 2
-    for(int i = 0, b = 0; i < myArray.Length; i++, b ++)//5,35,56,45
+    int [] myArray = new int[array.Length  - 1];
+    for(int i = 0, b = 0; i < myArray.Length; i++, b ++)
     {
         Console.WriteLine( i );
         if(i==index)
